@@ -42,6 +42,7 @@ python checks/validate_segments.py segments.csv
 ### `segment_profiles.csv`
 
 One row per segment with size, percentage, medians for core behavioral features, proposed name, recommended action, and risk/caveat.
+Use `segment_profiles_template.csv` as the schema.
 
 ### Segment memo and presentation
 

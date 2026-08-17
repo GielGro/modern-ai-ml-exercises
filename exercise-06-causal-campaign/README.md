@@ -39,6 +39,8 @@ visited,aipw,0.031,0.020,0.042
 spend_usd,aipw,0.85,0.10,1.60
 ```
 
+Use `sample_effect_estimates.csv` as the schema and replace every placeholder.
+
 Validate with:
 
 ```bash
