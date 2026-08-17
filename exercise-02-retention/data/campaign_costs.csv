@@ -1,0 +1,6 @@
+parameter,value_usd_or_rate,description
+contact_cost,5.0,Cost for each customer contacted
+offer_cost_if_accepted,40.0,Expected offer cost conditional on acceptance
+gross_margin_saved,420.0,Twelve-month contribution margin protected when churn is prevented
+offer_acceptance_rate,0.55,Probability a contacted customer accepts the offer
+intervention_success_rate,0.35,Probability an accepted offer prevents churn
