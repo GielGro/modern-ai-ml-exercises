@@ -1,0 +1,4 @@
+parameter,value,description
+empty_room_cost_rate,0.7,Share of booking revenue lost when a canceled room is not resold
+deposit_friction_cost,18.0,Expected goodwill/conversion cost for each booking required to pay a deposit
+deposit_recovery_rate,0.45,Share of cancellation loss recovered when a deposit is required
