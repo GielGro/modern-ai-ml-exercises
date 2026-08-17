@@ -1,5 +1,7 @@
 # Exercise 01 — HomeValue: Pricing Homes for Acquisition
 
+[![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-01-homevalue/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
+
 **Release:** End of Session 1  
 **Due:** Before Session 3 debrief  
 **Expected effort:** 5–7 hours  

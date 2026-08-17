@@ -2,8 +2,11 @@
 
 Six business-facing machine-learning exercises spanning the full course sequence. Each challenge is designed for approximately 5–7 hours of student work over a 7–10 day window.
 
+[![Open output explorer in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
+
 | Exercise | Course sessions | Core question | Primary method |
 |---|---:|---|---|
+| [First Flight](exercise-00-tooling-warmup/) | Before Session 1 | Can I complete the GitHub–Colab submission workflow? | Tooling rehearsal |
 | [HomeValue](exercise-01-homevalue/) | 1–3 | What is a defensible screening value for a home? | Linear regression |
 | [Save or Let Go](exercise-02-retention/) | 4–6 | Which customers should receive a retention offer? | Classification and thresholding |
 | [BookingGuard](exercise-03-booking-guard/) | 7–8 | Which hotel bookings warrant a deposit? | Gradient boosting and model selection |
@@ -25,6 +28,9 @@ The test labels and instructor solutions are intentionally absent from this repo
 
 Google Colab is recommended. For local use, install the packages in `requirements.txt` with Python 3.10 or later.
 
+- Start with [Exercise 00: First Flight](exercise-00-tooling-warmup/).
+- Use the [shared Colab output explorer](shared/OUTPUT_EXPLORER.md) to inspect any challenge submission.
+
 ## Data provenance
 
 - Exercise 1 derives from the Ames Housing data made available by Dean De Cock and the Ames City Assessor's Office: https://cmustatistics.github.io/data-repository/money/ames-housing.html
@@ -34,4 +40,4 @@ Google Colab is recommended. For local use, install the packages in `requirement
 - Exercise 5 derives from Fashion-MNIST: https://github.com/zalandoresearch/fashion-mnist
 - Exercise 6 derives from Kevin Hillstrom's email marketing challenge: https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html
 
-Both exercise datasets use randomized identifiers and course-specific preparation. Do not attempt to reconstruct labels from online copies.
+The challenge datasets use randomized identifiers and course-specific preparation where appropriate. Do not attempt to reconstruct labels from online copies.

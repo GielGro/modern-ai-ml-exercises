@@ -1,5 +1,7 @@
 # Exercise 06 — Causal Campaign: Did the Email Create Incremental Value?
 
+[![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-06-causal-campaign/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
+
 **Release:** Session 14  
 **Due:** One week after Session 14  
 **Expected effort:** 5–7 hours  

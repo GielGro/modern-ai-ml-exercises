@@ -1,5 +1,7 @@
 # Exercise 02 — Save or Let Go: Customer Retention Decisions
 
+[![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-02-retention/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
+
 **Release:** End of Session 4  
 **Due:** During Session 6 debrief  
 **Expected effort:** 5–7 hours  

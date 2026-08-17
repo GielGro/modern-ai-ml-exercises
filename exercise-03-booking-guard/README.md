@@ -1,5 +1,7 @@
 # Exercise 03 — BookingGuard: Protecting Hotel Revenue
 
+[![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-03-booking-guard/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
+
 **Release:** Session 7  
 **Due:** Before Session 8 debrief  
 **Expected effort:** 5–7 hours  

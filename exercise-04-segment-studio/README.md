@@ -1,5 +1,7 @@
 # Exercise 04 — Segment Studio: From Transactions to Customer Strategy
 
+[![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-04-segment-studio/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
+
 **Release:** Session 9  
 **Due:** Session 10 insight presentations  
 **Expected effort:** 5–7 hours  

@@ -1,5 +1,7 @@
 # Exercise 05 — VisualSort: Retail Image Routing with Transfer Learning
 
+[![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-05-visual-sort/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
+
 **Release:** Session 11  
 **Due:** Session 13 debrief  
 **Expected effort:** 5–7 hours  
