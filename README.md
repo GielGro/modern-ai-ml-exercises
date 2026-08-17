@@ -1,6 +1,6 @@
 # Modern AI & Machine Learning — Applied Challenges
 
-Two individual, business-facing machine-learning exercises for the opening six sessions of the course. Each challenge is designed for 5–7 hours of student work over a 7–10 day window.
+Six business-facing machine-learning exercises spanning the full course sequence. Each challenge is designed for approximately 5–7 hours of student work over a 7–10 day window.
 
 | Exercise | Course sessions | Core question | Primary method |
 |---|---:|---|---|
@@ -29,5 +29,9 @@ Google Colab is recommended. For local use, install the packages in `requirement
 
 - Exercise 1 derives from the Ames Housing data made available by Dean De Cock and the Ames City Assessor's Office: https://cmustatistics.github.io/data-repository/money/ames-housing.html
 - Exercise 2 derives from IBM's fictional Telco Customer Churn sample: https://github.com/IBM/telco-customer-churn-on-icp4d
+- Exercise 3 derives from the Hotel Booking Demand datasets: https://doi.org/10.1016/j.dib.2018.11.126
+- Exercise 4 derives from UCI Online Retail: https://doi.org/10.24432/C5BW33
+- Exercise 5 derives from Fashion-MNIST: https://github.com/zalandoresearch/fashion-mnist
+- Exercise 6 derives from Kevin Hillstrom's email marketing challenge: https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html
 
 Both exercise datasets use randomized identifiers and course-specific preparation. Do not attempt to reconstruct labels from online copies.
