@@ -2,6 +2,12 @@
 
 Six business-facing machine-learning exercises spanning the full course sequence. Each challenge is designed for approximately 5–7 hours of student work over a 7–10 day window.
 
+## Individual problem sets
+
+The five short individual problem sets are available in the
+[problem-sets directory](problem-sets/). Submit responses in Blackboard; GitHub
+hosts the formatted briefs only.
+
 [![Open output explorer in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
 
 | Exercise | Course sessions | Core question | Primary method |
