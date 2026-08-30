@@ -10,9 +10,18 @@ hosts the formatted briefs only.
 
 [![Open output explorer in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
 
+## Week 1 live micro-lab
+
+[![Open Customer Split Micro-Lab in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/notebooks/customer_split_micro_lab.ipynb)
+
+The [Customer Split Micro-Lab](shared/CUSTOMER_SPLIT_MICRO_LAB.md) is an
+8–12 minute in-class activity comparing a random row-level split with a
+customer-level split. It is separate from Exercise 00 and requires no file
+submission.
+
 | Exercise | Course sessions | Core question | Primary method |
 |---|---:|---|---|
-| [First Flight](exercise-00-tooling-warmup/) | Before Session 1 | Can I complete the GitHub–Colab submission workflow? | Tooling rehearsal |
+| [First Flight](exercise-00-tooling-warmup/) | Session 1 | Can I complete the GitHub–Colab submission workflow? | Tooling rehearsal |
 | [HomeValue](exercise-01-homevalue/) | 1–3 | What is a defensible screening value for a home? | Linear regression |
 | [Save or Let Go](exercise-02-retention/) | 4–6 | Which customers should receive a retention offer? | Classification and thresholding |
 | [BookingGuard](exercise-03-booking-guard/) | 7–8 | Which hotel bookings warrant a deposit? | Gradient boosting and model selection |
