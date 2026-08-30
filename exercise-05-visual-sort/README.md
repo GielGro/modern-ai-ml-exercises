@@ -7,6 +7,14 @@
 **Expected effort:** 5–7 hours  
 **Work mode:** Teams of two
 
+## Start and submit
+
+1. Open the starter notebook with the Colab button above and select **File → Save a copy in Drive**. Do not use a GitHub Gist.
+2. Complete the analysis, restart the runtime, and run every cell from top to bottom.
+3. Validate `submission.csv` and inspect the outputs with the [shared output explorer](../shared/OUTPUT_EXPLORER.md).
+4. Download the executed notebook, model artifact, and required outputs to your computer.
+5. Assemble the files using the [submission guidelines](../shared/submission_guidelines.md) and submit them through the Exercise 05 assignment in Blackboard. Follow the Blackboard assignment for the designated team submitter and due date.
+
 ## Your role
 
 An online marketplace receives product images before structured catalog metadata is complete. Build a visual classifier that routes each image into one of ten coarse merchandise categories. A human catalog specialist reviews low-confidence cases.
@@ -48,17 +56,17 @@ IMG-123456,coat
 Validate with:
 
 ```bash
-python checks/validate_submission.py submission.csv
+python3 checks/validate_submission.py submission.csv
 ```
 
 ### Model card and demo
 
 Submit an executed Colab notebook, saved model or weights, experiment report, and a two-page model card covering intended use, data, metrics, failure modes, review threshold, and responsible-use limits. Demonstrate inference on five images.
 
-## Leaderboard
+## Technical evaluation
 
-Macro F1 is the primary metric so each merchandise class matters equally. Public scoring uses 40% of test images and private scoring uses 60%.
+Macro F1 on withheld outcomes is the primary metric so each merchandise class matters equally. There is no public course leaderboard.
 
 ## Source
 
-Fashion-MNIST by Zalando Research, MIT License: https://github.com/zalandoresearch/fashion-mnist
+[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) by Zalando Research, MIT License.

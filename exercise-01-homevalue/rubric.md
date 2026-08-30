@@ -3,8 +3,8 @@
 ## Predictive performance — 40 points
 
 - 10: valid submission that beats the median baseline.
-- 15: public leaderboard performance, normalized between the baseline and reference benchmark.
-- 15: private leaderboard performance, normalized the same way.
+- 15: validation performance, reported correctly and compared with the baseline.
+- 15: performance on instructor-held outcomes, normalized between the baseline and reference benchmark.
 
 ## Methodology — 35 points
 

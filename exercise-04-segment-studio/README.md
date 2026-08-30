@@ -7,6 +7,14 @@
 **Expected effort:** 5–7 hours  
 **Work mode:** Teams of two
 
+## Start and submit
+
+1. Open the starter notebook with the Colab button above and select **File → Save a copy in Drive**. Do not use a GitHub Gist.
+2. Complete the analysis, restart the runtime, and run every cell from top to bottom.
+3. Validate `segments.csv` and inspect the outputs with the [shared output explorer](../shared/OUTPUT_EXPLORER.md).
+4. Download the executed notebook and required outputs to your computer.
+5. Assemble the files using the [submission guidelines](../shared/submission_guidelines.md) and submit them through the Exercise 04 assignment in Blackboard. Follow the Blackboard assignment for the designated team submitter and due date.
+
 ## Your role
 
 The CMO of a UK online retailer believes its customers need different lifecycle strategies, but does not want arbitrary personas. Create a compact, stable segmentation from behavioral customer profiles and translate it into decisions for marketing, service, and merchandising.
@@ -38,7 +46,7 @@ SHOP-123456,2
 Use integer segment IDs from 0 through `k-1`. Validate with:
 
 ```bash
-python checks/validate_segments.py segments.csv
+python3 checks/validate_segments.py segments.csv
 ```
 
 ### `segment_profiles.csv`
@@ -56,4 +64,4 @@ There is no hidden “true cluster.” Grading rewards defensible preparation, s
 
 ## Source
 
-UCI Online Retail dataset by Daqing Chen, CC BY 4.0: https://doi.org/10.24432/C5BW33
+[UCI Online Retail dataset](https://doi.org/10.24432/C5BW33) by Daqing Chen, CC BY 4.0.

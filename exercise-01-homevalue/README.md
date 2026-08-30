@@ -7,6 +7,14 @@
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
 
+## Start and submit
+
+1. Open the starter notebook with the Colab button above and select **File → Save a copy in Drive**. Do not use a GitHub Gist.
+2. Complete the analysis, restart the runtime, and run every cell from top to bottom.
+3. Validate `submission.csv`, then inspect it with the [shared output explorer](../shared/OUTPUT_EXPLORER.md).
+4. Download the executed notebook and required outputs to your computer.
+5. Assemble the files using the [submission guidelines](../shared/submission_guidelines.md) and submit them through the Exercise 01 assignment in Blackboard. Blackboard is the source of truth for the due date and submission field.
+
 ## Your role
 
 You are a junior data scientist at Northstar Residential, a property investment firm. Acquisition analysts review hundreds of properties and need a defensible screening value before commissioning a full appraisal. Overpaying destroys returns; rejecting every uncertain property leaves good opportunities undiscovered.
@@ -57,7 +65,7 @@ HOME-123456,185000
 Predictions must be positive, finite dollar amounts. Validate the file with:
 
 ```bash
-python checks/validate_submission.py submission.csv
+python3 checks/validate_submission.py submission.csv
 ```
 
 ### 2. Executed notebook
@@ -68,16 +76,16 @@ Show the baseline, preprocessing, validation, model comparison, residual analysi
 
 Write for the Director of Acquisitions. Include the recommended use of the model, validation evidence in dollars and percentages, three valuation relationships, the model's weakest segment, and two operating guardrails.
 
-## Leaderboard metric
+## Technical evaluation metric
 
 Predictions are scored using **root mean squared logarithmic error (RMSLE)**. This emphasizes proportional error and reduces domination by a few expensive homes. Lower is better.
 
-The public leaderboard uses 40% of test rows. The remaining 60% form the private leaderboard used after the deadline.
+There is no public course leaderboard. The instructor evaluates submitted predictions against withheld outcomes after the deadline; those labels are never provided to students.
 
 ## Success criterion
 
-A technically credible submission beats the median baseline and explains where it should not be trusted. A high leaderboard position cannot compensate for leakage or an irreproducible notebook.
+A technically credible submission beats the median baseline and explains where it should not be trusted. Predictive performance cannot compensate for leakage or an irreproducible notebook.
 
 ## Data source
 
-Ames Housing, compiled by Dean De Cock from Ames City Assessor's Office records: https://cmustatistics.github.io/data-repository/money/ames-housing.html
+[Ames Housing](https://cmustatistics.github.io/data-repository/money/ames-housing.html), compiled by Dean De Cock from Ames City Assessor's Office records.

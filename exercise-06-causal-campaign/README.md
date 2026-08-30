@@ -7,6 +7,14 @@
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
 
+## Start and submit
+
+1. Open the starter notebook with the Colab button above and select **File → Save a copy in Drive**. Do not use a GitHub Gist.
+2. Complete the analysis, restart the runtime, and run every cell from top to bottom.
+3. Validate `effect_estimates.csv` and inspect the outputs with the [shared output explorer](../shared/OUTPUT_EXPLORER.md).
+4. Download the executed notebook and required outputs to your computer.
+5. Assemble the files using the [submission guidelines](../shared/submission_guidelines.md) and submit them through the Exercise 06 assignment in Blackboard. Blackboard is the source of truth for the due date and submission field.
+
 ## Your role
 
 The growth team observed that customers receiving a women’s-merchandise email converted at a different rate than customers receiving no email. However, the supplied operational cohort is observational and imbalanced. Decide whether the email caused incremental visits, conversions, and spend—and whether the evidence supports rollout.
@@ -46,7 +54,7 @@ Use `sample_effect_estimates.csv` as the schema and replace every placeholder.
 Validate with:
 
 ```bash
-python checks/validate_effects.py effect_estimates.csv
+python3 checks/validate_effects.py effect_estimates.csv
 ```
 
 ### Decision memo
@@ -59,4 +67,4 @@ The hidden randomized benchmark is a diagnostic, not an answer key. Estimates ar
 
 ## Source
 
-Kevin Hillstrom’s MineThatData Email Analytics Challenge: https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html
+[Kevin Hillstrom’s MineThatData Email Analytics Challenge](https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html).

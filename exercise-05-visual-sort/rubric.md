@@ -3,7 +3,7 @@
 ## Model performance — 35
 
 - 10: credible baseline and valid submission.
-- 15: private macro-F1 performance.
+- 15: macro-F1 performance on instructor-held outcomes.
 - 10: class-level recall and confidence-review performance.
 
 ## Methodology — 40

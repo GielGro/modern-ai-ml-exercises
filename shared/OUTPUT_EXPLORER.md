@@ -12,7 +12,7 @@ The shared output explorer supports all six exercises without exposing hidden la
 4. Select **Runtime → Run all**.
 5. When prompted, upload the output produced by your exercise notebook.
 
-The explorer does **not** calculate private leaderboard metrics. It helps answer questions such as:
+The explorer does **not** calculate metrics against instructor-held outcomes. It helps answer questions such as:
 
 - Are predictions distributed sensibly?
 - What share of customers or bookings receive an action?

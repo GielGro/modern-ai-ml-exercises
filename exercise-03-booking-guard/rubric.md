@@ -3,8 +3,8 @@
 ## Predictive and policy performance — 40
 
 - 10: valid submission and meaningful baseline improvement.
-- 15: private-holdout probability quality, primarily log loss.
-- 15: private-holdout policy value relative to “deposit nobody” and the reference policy.
+- 15: probability quality on the instructor-held temporal holdout, primarily log loss.
+- 15: policy value on the instructor-held temporal holdout relative to “deposit nobody” and the reference policy.
 
 ## Methodology — 35
 

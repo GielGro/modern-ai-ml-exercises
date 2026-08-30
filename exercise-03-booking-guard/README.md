@@ -7,6 +7,14 @@
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
 
+## Start and submit
+
+1. Open the starter notebook with the Colab button above and select **File → Save a copy in Drive**. Do not use a GitHub Gist.
+2. Complete the analysis and maintain the required experiment table inside the notebook or as a CSV.
+3. Restart the runtime, run every cell, validate `submission.csv`, and inspect it with the [shared output explorer](../shared/OUTPUT_EXPLORER.md).
+4. Download the executed notebook and required outputs to your computer.
+5. Assemble the files using the [submission guidelines](../shared/submission_guidelines.md) and submit them through the Exercise 03 assignment in Blackboard. Blackboard is the source of truth for the due date and submission field.
+
 ## Your role
 
 You support revenue management for a hotel group. Late cancellations leave rooms empty, but requiring a deposit from every guest creates friction and reduces bookings. At a fixed decision point before arrival, predict cancellation risk and recommend which bookings should require a deposit.
@@ -34,7 +42,7 @@ The holdout is later in time. Random cross-validation alone may overstate perfor
 2. Establish prevalence and logistic-regression baselines.
 3. Use a time-aware validation design.
 4. Compare logistic regression, Random Forest, and one gradient-boosting implementation.
-5. Track at least five deliberate experiments, including parameters, validation period, runtime, and metrics. W&B is recommended; a documented experiment table is acceptable.
+5. Track at least five deliberate experiments in a documented table, including parameters, validation period, runtime, and metrics.
 6. Evaluate log loss, PR-AUC, ROC-AUC, calibration, and policy value.
 7. Select a deposit threshold and test its sensitivity to all supplied cost assumptions.
 8. Analyze error or policy rates across at least three operational groups.
@@ -53,21 +61,21 @@ BOOK-123456,0.71,1
 Validate it with:
 
 ```bash
-python checks/validate_submission.py submission.csv
+python3 checks/validate_submission.py submission.csv
 ```
 
 ### Notebook and experiment report
 
-Provide an executed, reproducible notebook plus a W&B report link or equivalent experiment table.
+Provide an executed, reproducible notebook plus the required experiment table in the notebook or as a CSV.
 
 ### Revenue-management memo
 
 In one page, recommend a threshold, expected deposits per 1,000 bookings, expected value, evidence of temporal generalization, important drivers, and two guest-experience guardrails.
 
-## Leaderboard
+## Technical evaluation
 
-The predictive component uses log loss. The policy component applies the published economics to hidden outcomes. Public scoring uses 40% of holdout bookings; 60% remain private until the deadline.
+The predictive component uses log loss. The policy component applies the published economics to withheld outcomes after the deadline. There is no public course leaderboard.
 
 ## Source
 
-Hotel Booking Demand datasets by António, de Almeida, and Nunes, CC BY 4.0: https://doi.org/10.1016/j.dib.2018.11.126
+[Hotel Booking Demand datasets](https://doi.org/10.1016/j.dib.2018.11.126) by António, de Almeida, and Nunes, CC BY 4.0.

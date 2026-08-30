@@ -7,6 +7,14 @@
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
 
+## Start and submit
+
+1. Open the starter notebook with the Colab button above and select **File → Save a copy in Drive**. Do not use a GitHub Gist.
+2. Complete the analysis, restart the runtime, and run every cell from top to bottom.
+3. Validate `submission.csv`, then inspect it with the [shared output explorer](../shared/OUTPUT_EXPLORER.md).
+4. Download the executed notebook and required outputs to your computer.
+5. Assemble the files using the [submission guidelines](../shared/submission_guidelines.md) and submit them through the Exercise 02 assignment in Blackboard. Blackboard is the source of truth for the due date and submission field.
+
 ## Your role
 
 You are a data scientist supporting the retention team at Meridian Telecom. The team can contact only a fraction of customers. Every contact costs money, accepted offers reduce margin, and contacting customers who would stay anyway wastes budget.
@@ -60,7 +68,7 @@ CUST-123456,0.73,1
 `contact_customer` must be `0` or `1`. Validate with:
 
 ```bash
-python checks/validate_submission.py submission.csv
+python3 checks/validate_submission.py submission.csv
 ```
 
 ### 2. Executed notebook and experiment summary
@@ -75,10 +83,10 @@ Write for the VP of Customer Retention. Recommend a policy, expected contacts pe
 
 Explain the validation design, model selection, threshold, and one limitation. Do not narrate notebook cells.
 
-## Leaderboard score
+## Technical evaluation
 
-The technical component uses **log loss**, rewarding useful probabilities rather than only rankings. The decision component evaluates realized campaign value using the submitted `contact_customer` policy and hidden outcomes. Public results use 40% of test rows; the remaining 60% determine the final private score.
+The technical component uses **log loss**, rewarding useful probabilities rather than only rankings. The decision component evaluates realized campaign value using the submitted `contact_customer` policy and withheld outcomes after the deadline. There is no public course leaderboard.
 
 ## Data source
 
-IBM Telco Customer Churn sample: https://github.com/IBM/telco-customer-churn-on-icp4d
+[IBM Telco Customer Churn sample](https://github.com/IBM/telco-customer-churn-on-icp4d).

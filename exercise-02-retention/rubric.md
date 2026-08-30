@@ -3,8 +3,8 @@
 ## Predictive and decision performance — 40 points
 
 - 10: valid probability submission that improves on the prevalence baseline.
-- 15: private-test probability quality, primarily log loss.
-- 15: private-test campaign value relative to “contact nobody” and the reference policy.
+- 15: probability quality on instructor-held outcomes, primarily log loss.
+- 15: campaign value on instructor-held outcomes relative to “contact nobody” and the reference policy.
 
 ## Methodology — 35 points
 
