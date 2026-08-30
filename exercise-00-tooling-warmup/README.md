@@ -37,38 +37,48 @@ No model is needed. The goal is to prove your tools and file workflow work.
 
 ## Required output
 
-Create `toy_submission.csv` with exactly:
+Create `toy_submission.csv` with exactly these four columns and one row for each
+of the 24 customers. The first row should look like this:
 
 ```text
 customer_id,conversion_rate,average_order_value,priority_customer
-TOY-001,0.25,40.00,0
+TOY-001,0.25,58.00,1
 ```
 
-Run the validator in Colab or locally:
+Run the validator using the provided Colab cell. If you are working locally,
+run:
 
 ```bash
-python checks/validate_submission.py toy_submission.csv
+python3 checks/validate_submission.py toy_submission.csv
 ```
 
 ## Preserve and submit your work
 
-Colab may show **Save a copy in Drive** and **Save a copy as a GitHub Gist** without offering a direct repository save. Do **not** use a Gist for this exercise.
+Colab may show **Save a copy in Drive** and **Save a copy as a GitHub Gist** without offering a direct repository save. Do **not** use a Gist for this exercise. A Drive copy is normally stored in **My Drive → Colab Notebooks**. The two files you download are stored on your computer, usually in **Downloads**.
 
 1. While working, select **File → Save a copy in Drive** so your notebook is not lost when the temporary runtime ends.
-2. After the validator passes, select **File → Download → Download .ipynb**. Rename the file `tooling_warmup.ipynb` if Colab adds `Copy of` to the filename.
-3. Run the notebook download cell to download `toy_submission.csv`.
-4. In your GitHub fork, create a branch named `tooling-warmup` from `main`.
-5. On that branch, upload `tooling_warmup.ipynb` to `exercise-00-tooling-warmup/notebooks/`.
-6. Upload `toy_submission.csv` to `exercise-00-tooling-warmup/`.
-7. Open a pull request from `tooling-warmup` into the `main` branch of **your own fork**.
+2. Complete the reflection at the end of the notebook.
+3. After the validator passes and the reflection is complete, select **File → Download → Download .ipynb**. Rename the downloaded file `tooling_warmup.ipynb` if Colab adds `Copy of` to its name.
+4. Run the notebook's final download cell to download `toy_submission.csv`.
+5. In your GitHub fork, create a branch named `tooling-warmup` from `main`. Confirm that the branch selector says `tooling-warmup` before uploading anything.
+6. On that branch, upload `tooling_warmup.ipynb` to `exercise-00-tooling-warmup/notebooks/`, replacing the starter notebook, and commit the change.
+7. Still on `tooling-warmup`, upload `toy_submission.csv` to `exercise-00-tooling-warmup/` and commit the change.
+8. Open a pull request from `tooling-warmup` into the `main` branch of **your own fork**. GitHub's normal **Contribute → Open pull request** route may default to the instructor repository, so use this comparison URL with your username:
+
+   ```text
+   https://github.com/YOUR_USERNAME/modern-ai-ml-exercises/compare/main...tooling-warmup
+   ```
+
+9. Before creating the pull request, confirm that both the base and head repositories show your GitHub username. Leave the pull request open; do not merge it.
 
 Submit the URL of that pull request in Blackboard before Week 2. Do not open a pull request against the instructor’s course repository.
 
 ## Completion checklist
 
 - [ ] Notebook runs from top to bottom.
-- [ ] Validator prints `Valid tooling submission`.
+- [ ] Validator prints `Valid tooling submission: 24 customers`.
+- [ ] Notebook contains your name and completed reflection.
 - [ ] Completed notebook exists at `exercise-00-tooling-warmup/notebooks/tooling_warmup.ipynb` on the `tooling-warmup` branch of your fork.
 - [ ] `toy_submission.csv` exists at `exercise-00-tooling-warmup/toy_submission.csv` on the same branch.
-- [ ] Pull request targets your own fork’s `main` branch.
+- [ ] Pull request targets your own fork’s `main` branch and remains open.
 - [ ] Pull request description contains one sentence explaining what you learned.
